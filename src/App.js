@@ -13,8 +13,8 @@ function App() {
         <SiteHeader />
         <Routes>
           <Route path='/' element={<Homepage />} />
-          <Route path='/details/:id' element={<ReviewDetails />} />
-          <Route path='/category/:id' element={<Category />} />
+          <Route path='/api/details/:id' element={<ReviewDetails />} />
+          <Route path='/api/category/:id' element={<Category />} />
         </Routes>
       </div>
     </Router>
